@@ -117,7 +117,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -189,7 +189,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -261,7 +261,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -333,7 +333,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -403,7 +403,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -475,7 +475,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -547,7 +547,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -613,7 +613,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -679,7 +679,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -751,7 +751,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -824,7 +824,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -894,7 +894,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -968,7 +968,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -1038,7 +1038,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -1114,7 +1114,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -1184,7 +1184,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -1254,7 +1254,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -1324,7 +1324,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -1394,7 +1394,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -1464,7 +1464,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -1534,7 +1534,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -1604,7 +1604,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -1676,7 +1676,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -1761,7 +1761,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -1829,7 +1829,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -1910,7 +1910,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -1985,7 +1985,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -2055,7 +2055,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -2132,7 +2132,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -2209,7 +2209,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -2279,7 +2279,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -2349,7 +2349,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -2410,7 +2410,7 @@ Other parameters are passed through a pointer to a apiProductionOperationsManage
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -2489,7 +2489,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -2568,7 +2568,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -2643,7 +2643,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -2711,7 +2711,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -2784,7 +2784,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -2854,7 +2854,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -2931,7 +2931,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -3006,7 +3006,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -3086,7 +3086,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -3152,7 +3152,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -3224,7 +3224,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -3296,7 +3296,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -3362,7 +3362,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -3434,7 +3434,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -3506,7 +3506,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -3574,7 +3574,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
@@ -3647,7 +3647,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[apiKey](../README.md#apiKey)
+No authorization required
 
 ### HTTP request headers
 
