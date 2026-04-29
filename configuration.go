@@ -28,6 +28,9 @@ func (c contextKey) String() string {
 }
 
 var (
+	// ContextAPIKeys takes a string apikey as authentication for the request
+	ContextAPIKeys = contextKey("apiKeys")
+
 	// ContextServerIndex uses a server configuration from the index.
 	ContextServerIndex = contextKey("serverIndex")
 
@@ -91,6 +94,10 @@ func NewConfiguration() *Configuration {
 		Servers:          ServerConfigurations{
 			{
 				URL: "https://connect.plex.com",
+				Description: "No description provided",
+			},
+			{
+				URL: "https://connect.test.plex.com",
 				Description: "No description provided",
 			},
 		},
