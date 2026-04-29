@@ -5,6 +5,9 @@ info:
   version: v1
 servers:
 - url: https://connect.plex.com
+- url: https://connect.test.plex.com
+security:
+- apiKey: []
 tags:
 - description: "The Accounts Payable Invoices API is used to retrieve Accounts Payable\
     \ invoices, Accounts Payable invoice lines, and Accounts Payable invoice tax data."
@@ -84896,3 +84899,8 @@ components:
           type: array
       title: dynamic_multi_out_sets_api_Get_Dynamic_Multi_Out_Set_response
       type: object
+  securitySchemes:
+    apiKey:
+      in: header
+      name: X-Plex-Connect-Api-Key
+      type: apiKey
