@@ -1,0 +1,862 @@
+# SupplyItemsApiGetSupplyItemResponse
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Id** | Pointer to **string** | A unique identifier for the Supply Item. This will be automatically generated if omitted from the request. | [optional] 
+**SupplyItemNumber** | Pointer to **string** | A short identifier for the Supply Item. | [optional] 
+**Type** | Pointer to **string** | Indicates the Supply Item type, such as office supplies or shop supplies. Setup Table: Item Type | [optional] 
+**Category** | Pointer to **string** | Setup Table: Supply Category | [optional] 
+**Priority** | Pointer to **string** | Setup Table: Item Priority | [optional] 
+**Group** | Pointer to **string** | A supply group, used to categorize Supply Items, such as Electrical, Mechanical, Office Supplies. Setup Table: Item Group | [optional] 
+**Description** | Pointer to **string** | Text description of the Supply Item. | [optional] 
+**CustomerUnitPrice** | Pointer to **float64** | Customer price per unit. | [optional] 
+**InventoryUnit** | Pointer to **string** | The unit of measure for the Supply Item. | [optional] 
+**BriefDescription** | Pointer to **string** | Short description of the Supply Item. | [optional] 
+**AccountId** | Pointer to **string** | The default expense account for the Supply Item. | [optional] 
+**ManufacturerCode** | Pointer to **string** | The manufacturer&#39;s code for the Supply Item. | [optional] 
+**SupplierId** | Pointer to **string** | The suppliers from whom the supplies are purchased. | [optional] 
+**ManufacturerItemNumber** | Pointer to **string** | The manufacturer&#39;s item number. | [optional] 
+**ManufacturerItemRevision** | Pointer to **string** | The manufacturer&#39;s revision number. | [optional] 
+**ManufacturerText** | Pointer to **string** | Notes about the manufacturer | [optional] 
+**CreatedDate** | Pointer to **time.Time** | The date on which the record was created. | [optional] 
+**CreatedById** | Pointer to **string** | The IAM Account ID of the user who created the record. | [optional] 
+**ModifiedDate** | Pointer to **time.Time** | The date on which the record was last modified. | [optional] 
+**ModifiedById** | Pointer to **string** | The IAM Account ID of the user who last modified the record. | [optional] 
+**TaxCodeNumber** | Pointer to **int32** |  | [optional] 
+**MaxQuantity** | Pointer to **float64** | The maximum number of Supply Items allowed to be in inventory. | [optional] 
+**MinQuantity** | Pointer to **float64** | The minimum number of Supply Items allowed to be in inventory. | [optional] 
+**Note** | Pointer to **string** | Purchasing notes. | [optional] 
+**UpdateWhenReceived** | Pointer to **bool** | Update inventory when supplies are received. | [optional] 
+**Active** | Pointer to **bool** |  | [optional] 
+**AverageCost** | Pointer to **float64** | Average cost of a Supply Item. | [optional] 
+**ResponsiblePersonId** | Pointer to **string** | The ID of the person responsible for the Supply Item. | [optional] 
+**VendorManaged** | Pointer to **bool** | Vendor Managed flag | [optional] 
+**Commodity** | Pointer to **string** |  | [optional] 
+**CountryOfOrigin** | Pointer to **string** | The country of origin of the Supply Item. | [optional] 
+**Consignment** | Pointer to **bool** |  | [optional] 
+
+## Methods
+
+### NewSupplyItemsApiGetSupplyItemResponse
+
+`func NewSupplyItemsApiGetSupplyItemResponse() *SupplyItemsApiGetSupplyItemResponse`
+
+NewSupplyItemsApiGetSupplyItemResponse instantiates a new SupplyItemsApiGetSupplyItemResponse object
+This constructor will assign default values to properties that have it defined,
+and makes sure properties required by API are set, but the set of arguments
+will change when the set of required properties is changed
+
+### NewSupplyItemsApiGetSupplyItemResponseWithDefaults
+
+`func NewSupplyItemsApiGetSupplyItemResponseWithDefaults() *SupplyItemsApiGetSupplyItemResponse`
+
+NewSupplyItemsApiGetSupplyItemResponseWithDefaults instantiates a new SupplyItemsApiGetSupplyItemResponse object
+This constructor will only assign default values to properties that have it defined,
+but it doesn't guarantee that properties required by API are set
+
+### GetId
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetId() string`
+
+GetId returns the Id field if non-nil, zero value otherwise.
+
+### GetIdOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetIdOk() (*string, bool)`
+
+GetIdOk returns a tuple with the Id field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetId
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetId(v string)`
+
+SetId sets Id field to given value.
+
+### HasId
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasId() bool`
+
+HasId returns a boolean if a field has been set.
+
+### GetSupplyItemNumber
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetSupplyItemNumber() string`
+
+GetSupplyItemNumber returns the SupplyItemNumber field if non-nil, zero value otherwise.
+
+### GetSupplyItemNumberOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetSupplyItemNumberOk() (*string, bool)`
+
+GetSupplyItemNumberOk returns a tuple with the SupplyItemNumber field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetSupplyItemNumber
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetSupplyItemNumber(v string)`
+
+SetSupplyItemNumber sets SupplyItemNumber field to given value.
+
+### HasSupplyItemNumber
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasSupplyItemNumber() bool`
+
+HasSupplyItemNumber returns a boolean if a field has been set.
+
+### GetType
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetType() string`
+
+GetType returns the Type field if non-nil, zero value otherwise.
+
+### GetTypeOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetTypeOk() (*string, bool)`
+
+GetTypeOk returns a tuple with the Type field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetType
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetType(v string)`
+
+SetType sets Type field to given value.
+
+### HasType
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasType() bool`
+
+HasType returns a boolean if a field has been set.
+
+### GetCategory
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetCategory() string`
+
+GetCategory returns the Category field if non-nil, zero value otherwise.
+
+### GetCategoryOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetCategoryOk() (*string, bool)`
+
+GetCategoryOk returns a tuple with the Category field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetCategory
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetCategory(v string)`
+
+SetCategory sets Category field to given value.
+
+### HasCategory
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasCategory() bool`
+
+HasCategory returns a boolean if a field has been set.
+
+### GetPriority
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetPriority() string`
+
+GetPriority returns the Priority field if non-nil, zero value otherwise.
+
+### GetPriorityOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetPriorityOk() (*string, bool)`
+
+GetPriorityOk returns a tuple with the Priority field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetPriority
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetPriority(v string)`
+
+SetPriority sets Priority field to given value.
+
+### HasPriority
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasPriority() bool`
+
+HasPriority returns a boolean if a field has been set.
+
+### GetGroup
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetGroup() string`
+
+GetGroup returns the Group field if non-nil, zero value otherwise.
+
+### GetGroupOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetGroupOk() (*string, bool)`
+
+GetGroupOk returns a tuple with the Group field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetGroup
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetGroup(v string)`
+
+SetGroup sets Group field to given value.
+
+### HasGroup
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasGroup() bool`
+
+HasGroup returns a boolean if a field has been set.
+
+### GetDescription
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetDescription() string`
+
+GetDescription returns the Description field if non-nil, zero value otherwise.
+
+### GetDescriptionOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetDescriptionOk() (*string, bool)`
+
+GetDescriptionOk returns a tuple with the Description field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetDescription
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetDescription(v string)`
+
+SetDescription sets Description field to given value.
+
+### HasDescription
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasDescription() bool`
+
+HasDescription returns a boolean if a field has been set.
+
+### GetCustomerUnitPrice
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetCustomerUnitPrice() float64`
+
+GetCustomerUnitPrice returns the CustomerUnitPrice field if non-nil, zero value otherwise.
+
+### GetCustomerUnitPriceOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetCustomerUnitPriceOk() (*float64, bool)`
+
+GetCustomerUnitPriceOk returns a tuple with the CustomerUnitPrice field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetCustomerUnitPrice
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetCustomerUnitPrice(v float64)`
+
+SetCustomerUnitPrice sets CustomerUnitPrice field to given value.
+
+### HasCustomerUnitPrice
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasCustomerUnitPrice() bool`
+
+HasCustomerUnitPrice returns a boolean if a field has been set.
+
+### GetInventoryUnit
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetInventoryUnit() string`
+
+GetInventoryUnit returns the InventoryUnit field if non-nil, zero value otherwise.
+
+### GetInventoryUnitOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetInventoryUnitOk() (*string, bool)`
+
+GetInventoryUnitOk returns a tuple with the InventoryUnit field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetInventoryUnit
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetInventoryUnit(v string)`
+
+SetInventoryUnit sets InventoryUnit field to given value.
+
+### HasInventoryUnit
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasInventoryUnit() bool`
+
+HasInventoryUnit returns a boolean if a field has been set.
+
+### GetBriefDescription
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetBriefDescription() string`
+
+GetBriefDescription returns the BriefDescription field if non-nil, zero value otherwise.
+
+### GetBriefDescriptionOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetBriefDescriptionOk() (*string, bool)`
+
+GetBriefDescriptionOk returns a tuple with the BriefDescription field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetBriefDescription
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetBriefDescription(v string)`
+
+SetBriefDescription sets BriefDescription field to given value.
+
+### HasBriefDescription
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasBriefDescription() bool`
+
+HasBriefDescription returns a boolean if a field has been set.
+
+### GetAccountId
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetAccountId() string`
+
+GetAccountId returns the AccountId field if non-nil, zero value otherwise.
+
+### GetAccountIdOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetAccountIdOk() (*string, bool)`
+
+GetAccountIdOk returns a tuple with the AccountId field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetAccountId
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetAccountId(v string)`
+
+SetAccountId sets AccountId field to given value.
+
+### HasAccountId
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasAccountId() bool`
+
+HasAccountId returns a boolean if a field has been set.
+
+### GetManufacturerCode
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetManufacturerCode() string`
+
+GetManufacturerCode returns the ManufacturerCode field if non-nil, zero value otherwise.
+
+### GetManufacturerCodeOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetManufacturerCodeOk() (*string, bool)`
+
+GetManufacturerCodeOk returns a tuple with the ManufacturerCode field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetManufacturerCode
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetManufacturerCode(v string)`
+
+SetManufacturerCode sets ManufacturerCode field to given value.
+
+### HasManufacturerCode
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasManufacturerCode() bool`
+
+HasManufacturerCode returns a boolean if a field has been set.
+
+### GetSupplierId
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetSupplierId() string`
+
+GetSupplierId returns the SupplierId field if non-nil, zero value otherwise.
+
+### GetSupplierIdOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetSupplierIdOk() (*string, bool)`
+
+GetSupplierIdOk returns a tuple with the SupplierId field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetSupplierId
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetSupplierId(v string)`
+
+SetSupplierId sets SupplierId field to given value.
+
+### HasSupplierId
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasSupplierId() bool`
+
+HasSupplierId returns a boolean if a field has been set.
+
+### GetManufacturerItemNumber
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetManufacturerItemNumber() string`
+
+GetManufacturerItemNumber returns the ManufacturerItemNumber field if non-nil, zero value otherwise.
+
+### GetManufacturerItemNumberOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetManufacturerItemNumberOk() (*string, bool)`
+
+GetManufacturerItemNumberOk returns a tuple with the ManufacturerItemNumber field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetManufacturerItemNumber
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetManufacturerItemNumber(v string)`
+
+SetManufacturerItemNumber sets ManufacturerItemNumber field to given value.
+
+### HasManufacturerItemNumber
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasManufacturerItemNumber() bool`
+
+HasManufacturerItemNumber returns a boolean if a field has been set.
+
+### GetManufacturerItemRevision
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetManufacturerItemRevision() string`
+
+GetManufacturerItemRevision returns the ManufacturerItemRevision field if non-nil, zero value otherwise.
+
+### GetManufacturerItemRevisionOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetManufacturerItemRevisionOk() (*string, bool)`
+
+GetManufacturerItemRevisionOk returns a tuple with the ManufacturerItemRevision field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetManufacturerItemRevision
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetManufacturerItemRevision(v string)`
+
+SetManufacturerItemRevision sets ManufacturerItemRevision field to given value.
+
+### HasManufacturerItemRevision
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasManufacturerItemRevision() bool`
+
+HasManufacturerItemRevision returns a boolean if a field has been set.
+
+### GetManufacturerText
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetManufacturerText() string`
+
+GetManufacturerText returns the ManufacturerText field if non-nil, zero value otherwise.
+
+### GetManufacturerTextOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetManufacturerTextOk() (*string, bool)`
+
+GetManufacturerTextOk returns a tuple with the ManufacturerText field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetManufacturerText
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetManufacturerText(v string)`
+
+SetManufacturerText sets ManufacturerText field to given value.
+
+### HasManufacturerText
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasManufacturerText() bool`
+
+HasManufacturerText returns a boolean if a field has been set.
+
+### GetCreatedDate
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetCreatedDate() time.Time`
+
+GetCreatedDate returns the CreatedDate field if non-nil, zero value otherwise.
+
+### GetCreatedDateOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetCreatedDateOk() (*time.Time, bool)`
+
+GetCreatedDateOk returns a tuple with the CreatedDate field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetCreatedDate
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetCreatedDate(v time.Time)`
+
+SetCreatedDate sets CreatedDate field to given value.
+
+### HasCreatedDate
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasCreatedDate() bool`
+
+HasCreatedDate returns a boolean if a field has been set.
+
+### GetCreatedById
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetCreatedById() string`
+
+GetCreatedById returns the CreatedById field if non-nil, zero value otherwise.
+
+### GetCreatedByIdOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetCreatedByIdOk() (*string, bool)`
+
+GetCreatedByIdOk returns a tuple with the CreatedById field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetCreatedById
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetCreatedById(v string)`
+
+SetCreatedById sets CreatedById field to given value.
+
+### HasCreatedById
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasCreatedById() bool`
+
+HasCreatedById returns a boolean if a field has been set.
+
+### GetModifiedDate
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetModifiedDate() time.Time`
+
+GetModifiedDate returns the ModifiedDate field if non-nil, zero value otherwise.
+
+### GetModifiedDateOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetModifiedDateOk() (*time.Time, bool)`
+
+GetModifiedDateOk returns a tuple with the ModifiedDate field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetModifiedDate
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetModifiedDate(v time.Time)`
+
+SetModifiedDate sets ModifiedDate field to given value.
+
+### HasModifiedDate
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasModifiedDate() bool`
+
+HasModifiedDate returns a boolean if a field has been set.
+
+### GetModifiedById
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetModifiedById() string`
+
+GetModifiedById returns the ModifiedById field if non-nil, zero value otherwise.
+
+### GetModifiedByIdOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetModifiedByIdOk() (*string, bool)`
+
+GetModifiedByIdOk returns a tuple with the ModifiedById field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetModifiedById
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetModifiedById(v string)`
+
+SetModifiedById sets ModifiedById field to given value.
+
+### HasModifiedById
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasModifiedById() bool`
+
+HasModifiedById returns a boolean if a field has been set.
+
+### GetTaxCodeNumber
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetTaxCodeNumber() int32`
+
+GetTaxCodeNumber returns the TaxCodeNumber field if non-nil, zero value otherwise.
+
+### GetTaxCodeNumberOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetTaxCodeNumberOk() (*int32, bool)`
+
+GetTaxCodeNumberOk returns a tuple with the TaxCodeNumber field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetTaxCodeNumber
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetTaxCodeNumber(v int32)`
+
+SetTaxCodeNumber sets TaxCodeNumber field to given value.
+
+### HasTaxCodeNumber
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasTaxCodeNumber() bool`
+
+HasTaxCodeNumber returns a boolean if a field has been set.
+
+### GetMaxQuantity
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetMaxQuantity() float64`
+
+GetMaxQuantity returns the MaxQuantity field if non-nil, zero value otherwise.
+
+### GetMaxQuantityOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetMaxQuantityOk() (*float64, bool)`
+
+GetMaxQuantityOk returns a tuple with the MaxQuantity field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetMaxQuantity
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetMaxQuantity(v float64)`
+
+SetMaxQuantity sets MaxQuantity field to given value.
+
+### HasMaxQuantity
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasMaxQuantity() bool`
+
+HasMaxQuantity returns a boolean if a field has been set.
+
+### GetMinQuantity
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetMinQuantity() float64`
+
+GetMinQuantity returns the MinQuantity field if non-nil, zero value otherwise.
+
+### GetMinQuantityOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetMinQuantityOk() (*float64, bool)`
+
+GetMinQuantityOk returns a tuple with the MinQuantity field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetMinQuantity
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetMinQuantity(v float64)`
+
+SetMinQuantity sets MinQuantity field to given value.
+
+### HasMinQuantity
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasMinQuantity() bool`
+
+HasMinQuantity returns a boolean if a field has been set.
+
+### GetNote
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetNote() string`
+
+GetNote returns the Note field if non-nil, zero value otherwise.
+
+### GetNoteOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetNoteOk() (*string, bool)`
+
+GetNoteOk returns a tuple with the Note field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetNote
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetNote(v string)`
+
+SetNote sets Note field to given value.
+
+### HasNote
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasNote() bool`
+
+HasNote returns a boolean if a field has been set.
+
+### GetUpdateWhenReceived
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetUpdateWhenReceived() bool`
+
+GetUpdateWhenReceived returns the UpdateWhenReceived field if non-nil, zero value otherwise.
+
+### GetUpdateWhenReceivedOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetUpdateWhenReceivedOk() (*bool, bool)`
+
+GetUpdateWhenReceivedOk returns a tuple with the UpdateWhenReceived field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetUpdateWhenReceived
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetUpdateWhenReceived(v bool)`
+
+SetUpdateWhenReceived sets UpdateWhenReceived field to given value.
+
+### HasUpdateWhenReceived
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasUpdateWhenReceived() bool`
+
+HasUpdateWhenReceived returns a boolean if a field has been set.
+
+### GetActive
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetActive() bool`
+
+GetActive returns the Active field if non-nil, zero value otherwise.
+
+### GetActiveOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetActiveOk() (*bool, bool)`
+
+GetActiveOk returns a tuple with the Active field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetActive
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetActive(v bool)`
+
+SetActive sets Active field to given value.
+
+### HasActive
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasActive() bool`
+
+HasActive returns a boolean if a field has been set.
+
+### GetAverageCost
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetAverageCost() float64`
+
+GetAverageCost returns the AverageCost field if non-nil, zero value otherwise.
+
+### GetAverageCostOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetAverageCostOk() (*float64, bool)`
+
+GetAverageCostOk returns a tuple with the AverageCost field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetAverageCost
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetAverageCost(v float64)`
+
+SetAverageCost sets AverageCost field to given value.
+
+### HasAverageCost
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasAverageCost() bool`
+
+HasAverageCost returns a boolean if a field has been set.
+
+### GetResponsiblePersonId
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetResponsiblePersonId() string`
+
+GetResponsiblePersonId returns the ResponsiblePersonId field if non-nil, zero value otherwise.
+
+### GetResponsiblePersonIdOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetResponsiblePersonIdOk() (*string, bool)`
+
+GetResponsiblePersonIdOk returns a tuple with the ResponsiblePersonId field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetResponsiblePersonId
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetResponsiblePersonId(v string)`
+
+SetResponsiblePersonId sets ResponsiblePersonId field to given value.
+
+### HasResponsiblePersonId
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasResponsiblePersonId() bool`
+
+HasResponsiblePersonId returns a boolean if a field has been set.
+
+### GetVendorManaged
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetVendorManaged() bool`
+
+GetVendorManaged returns the VendorManaged field if non-nil, zero value otherwise.
+
+### GetVendorManagedOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetVendorManagedOk() (*bool, bool)`
+
+GetVendorManagedOk returns a tuple with the VendorManaged field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetVendorManaged
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetVendorManaged(v bool)`
+
+SetVendorManaged sets VendorManaged field to given value.
+
+### HasVendorManaged
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasVendorManaged() bool`
+
+HasVendorManaged returns a boolean if a field has been set.
+
+### GetCommodity
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetCommodity() string`
+
+GetCommodity returns the Commodity field if non-nil, zero value otherwise.
+
+### GetCommodityOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetCommodityOk() (*string, bool)`
+
+GetCommodityOk returns a tuple with the Commodity field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetCommodity
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetCommodity(v string)`
+
+SetCommodity sets Commodity field to given value.
+
+### HasCommodity
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasCommodity() bool`
+
+HasCommodity returns a boolean if a field has been set.
+
+### GetCountryOfOrigin
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetCountryOfOrigin() string`
+
+GetCountryOfOrigin returns the CountryOfOrigin field if non-nil, zero value otherwise.
+
+### GetCountryOfOriginOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetCountryOfOriginOk() (*string, bool)`
+
+GetCountryOfOriginOk returns a tuple with the CountryOfOrigin field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetCountryOfOrigin
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetCountryOfOrigin(v string)`
+
+SetCountryOfOrigin sets CountryOfOrigin field to given value.
+
+### HasCountryOfOrigin
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasCountryOfOrigin() bool`
+
+HasCountryOfOrigin returns a boolean if a field has been set.
+
+### GetConsignment
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetConsignment() bool`
+
+GetConsignment returns the Consignment field if non-nil, zero value otherwise.
+
+### GetConsignmentOk
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) GetConsignmentOk() (*bool, bool)`
+
+GetConsignmentOk returns a tuple with the Consignment field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetConsignment
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) SetConsignment(v bool)`
+
+SetConsignment sets Consignment field to given value.
+
+### HasConsignment
+
+`func (o *SupplyItemsApiGetSupplyItemResponse) HasConsignment() bool`
+
+HasConsignment returns a boolean if a field has been set.
+
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+
