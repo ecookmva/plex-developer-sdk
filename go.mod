@@ -1,6 +1,7 @@
-module github.com/GIT_USER_ID/GIT_REPO_ID
+module github.com/ecookmva/plex-developer-sdk
 
 go 1.23
 
 require (
 )
+
