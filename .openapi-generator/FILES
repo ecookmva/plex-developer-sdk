@@ -1016,8 +1016,6 @@ docs/UserAccountsAPIAPI.md
 docs/UserAccountsApiGetUserAccountResponse.md
 docs/UserAccountsApiListUserAccountsItem.md
 git_push.sh
-go.mod
-go.sum
 model_accounts_payable_invoices_api_create_ap_invoice_201_response.go
 model_accounts_payable_invoices_api_create_ap_invoice_400_response.go
 model_accounts_payable_invoices_api_create_ap_invoice_request.go
